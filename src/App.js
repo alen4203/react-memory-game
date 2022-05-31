@@ -61,7 +61,7 @@ function App() {
         setTimeout(() => resetTurn(), 1000);
       }
     }
-  }, [choiceTwo]);
+  }, [choiceOne, choiceTwo]);
 
   // Start the game
   useEffect(() => {
